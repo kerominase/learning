@@ -3,7 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-import xz-utils
+pip install xz-utils
 
 """
 # Welcome to Streamlit!
